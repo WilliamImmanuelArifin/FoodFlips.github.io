@@ -1,0 +1,128 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Hero Section with Background Image */
+.banner {
+  /* Make sure the file extension (.jpg) matches your actual file! */
+  background: url("../assets/About_Me_Assets.png") no-repeat center center/cover;
+  height: 60vh;
+  position: relative;
+}
+.overlay {
+    background: rgba(255, 255, 255, 0.7); /* Light transparent overlay */
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+/* Marketing Section */
+.marketing {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.marketing h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.partner-logos img {
+    height: 50px; /* Adjust based on logo proportions */
+    filter: grayscale(20%);
+    transition: transform 0.3s;
+}
+
+.partner-logos img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer Section */
+.footer {
+    background-color: #6b7c65; /* The mossy green color */
+    color: white;
+    padding: 40px 10%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-menu h3, .footer-location h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    display: inline-block;
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu ul li {
+    margin-bottom: 8px;
+}
+
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.footer-menu a:hover {
+    opacity: 1;
+}
+
+.footer-location p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    opacity: 0.9;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.3); /* Darkens image for text readability */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1rem 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #fff;
+}

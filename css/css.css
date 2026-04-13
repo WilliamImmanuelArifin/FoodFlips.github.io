@@ -1,0 +1,182 @@
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #333;
+  padding: 1rem 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+/* Banner Styling */
+.banner {
+  /* Make sure the file extension (.jpg) matches your actual file! */
+  background: url("../assets/About_Me_Assets.png") no-repeat center center/cover;
+  height: 60vh;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.3); /* Darkens image for text readability */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  width: 280px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 3.5rem;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+}
+
+.what-we-do {
+  background-color: #8ea97c;
+  padding: 80px 10%;
+}
+
+.what-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.what-text {
+  flex: 1;
+  color: white;
+  text-align: center;
+}
+
+.what-text h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.what-text p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.what-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.what-image img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 6px;
+}
+
+.vision-mission {
+  background-color: #e5e5e5;
+  padding: 80px 10%;
+}
+
+.vm-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  text-align: center;
+}
+
+.vision,
+.mission {
+  flex: 1;
+}
+
+.vision h2,
+.mission h2 {
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.vision p,
+.mission p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.footer {
+  background-color: #7f9c73;
+  color: white;
+  padding: 60px 10%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-menu h3,
+.footer-location h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-menu ul li {
+  margin-bottom: 10px;
+}
+
+.footer-menu ul li a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer-location p {
+  max-width: 350px;
+  line-height: 1.6;
+  font-size: 18px;
+}
